@@ -1,0 +1,18 @@
+
+export function daysDiff(a, b) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(daysDiff((1982, 4, 19), (1982, 4, 22)));
+
+// These "asserts" are used for self-checking
+assert.equal(daysDiff((1982, 4, 19), (1982, 4, 22)), 3);
+assert.equal(daysDiff((2014, 1, 1), (2014, 8, 27)), 238);
+assert.equal(daysDiff((2014, 8, 27), (2014, 1, 1)), 238);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    
